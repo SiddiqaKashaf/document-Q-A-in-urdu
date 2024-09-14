@@ -8,5 +8,5 @@ streamlit==1.38.0
 streamlit_chat==0.1.1
 langchain-community
 sentence-transformers
-faiss-gpu==1.7.1
+faiss-cpu==1.8.0.post1
 pypdf2
