@@ -6,6 +6,5 @@ PyPDF2==3.0.1
 SpeechRecognition==3.10.4
 streamlit==1.38.0
 streamlit_chat==0.1.1
-tempfile
 pypdf2
 pyaudio
