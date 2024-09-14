@@ -161,10 +161,13 @@ def main():
         if "conversation" not in st.session_state:
             st.session_state.conversation = None
 
-        with st.sidebar.form(key="file_upload_form"):
+        with st.sidebar:
             uploaded_files = st.file_uploader("📂 Upload your PDF files", type=['pdf'], accept_multiple_files=True)
-            process = st.form_submit_button("Process", type="primary")
-
+        
+            process = None
+            if uploaded_files:
+                process = st.button("Process")
+                
         if process:
             with st.spinner('📄 Loading and processing files...'):
                 files_text = get_files_text(uploaded_files)
