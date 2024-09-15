@@ -9,5 +9,4 @@ streamlit_chat==0.1.1
 langchain-community==0.2.16
 sentence-transformers==3.0.1
 faiss-cpu==1.8.0.post1
-portaudio
-PyAudio==0.2.11
+
