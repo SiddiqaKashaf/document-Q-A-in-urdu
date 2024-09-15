@@ -7,7 +7,7 @@ SpeechRecognition==3.10.4
 streamlit==1.38.0
 streamlit_chat==0.1.1
 PyAudio==0.2.14
-langchain-community
-sentence-transformers
+langchain-community==0.2.16
+sentence-transformers==3.0.1
 faiss-cpu==1.8.0.post1
-pypdf2
+PyPDF2==3.0.1
