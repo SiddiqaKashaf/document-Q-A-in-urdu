@@ -9,4 +9,9 @@ streamlit_chat==0.1.1
 langchain-community==0.2.16
 sentence-transformers==3.0.1
 faiss-cpu==1.8.0.post1
+<<<<<<< HEAD
 streamlit_mic_recorder==0.0.8
+=======
+streamlit_mic_recorder==0.0.8
+
+>>>>>>> 6c2c2c1e0799481b0e0f2f8f395244e21574d1d1

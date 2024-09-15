@@ -131,12 +131,22 @@ def main():
     if "conversation" not in st.session_state:
             st.session_state.conversation = None
 
+<<<<<<< HEAD
 
     uploaded_files = st.sidebar.file_uploader("📂 Upload PDF files (Multiple)", type=['pdf'], accept_multiple_files=True)    
     process = None
     if uploaded_files:
         process = st.sidebar.button("Process", type="primary")
         
+=======
+        with st.sidebar:
+            uploaded_files = st.file_uploader("📂 Upload your PDF files", type=['pdf'], accept_multiple_files=True)
+        
+            process = None
+            if uploaded_files:
+                process = st.button("Process")
+                
+>>>>>>> 6c2c2c1e0799481b0e0f2f8f395244e21574d1d1
         if process:
             with st.spinner('📄 Loading and processing files...'):
                     files_text = get_files_text(uploaded_files)
