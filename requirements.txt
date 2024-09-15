@@ -10,4 +10,3 @@ langchain-community==0.2.16
 sentence-transformers==3.0.1
 faiss-cpu==1.8.0.post1
 PyAudio==0.2.11
---upgrade pip
