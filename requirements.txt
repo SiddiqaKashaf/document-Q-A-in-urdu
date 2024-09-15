@@ -1,7 +1,7 @@
 edge_tts==6.1.12
 langchain==0.2.16
 langchain-core==0.2.38
-langchain_google_genai==2.0.0
+langchain-google-genai==1.0.10
 PyPDF2==3.0.1
 SpeechRecognition==3.10.4
 streamlit==1.38.0
